@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <title>Online learning login</title>
+
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
+    <!-- Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./static/css/loginstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="./static/images/common/up page logo (2).jpg" alt="Logo">
+        </div>
+
+        <!-- Animated Text -->
+        <div class="animated-text">
+            <div class="line">Welcome</div>
+            <div class="line">to</div>
+            <div class="line">Learning</div>
+            <div class="line">HUB</div>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="socielicons">
+                <a href="https://www.facebook.com"><img src="./static/images/common/social logos/Facebookbw.png" onmouseover="this.src='./static/images/common/social logos/Facebook.png'" onmouseout="this.src='./static/images/common/social logos/Facebookbw.png'" alt="Facebook"></a>
+                <a href="https://www.instagram.com"><img src="./static/images/common/social logos/Instagrambw.png" onmouseover="this.src='./static/images/common/social logos/Instagram.png'" onmouseout="this.src='./static/images/common/social logos/Instagrambw.png'" alt="Instagram"></a>
+                <a href="https://www.twitter.com"><img src="./static/images/common/social logos/Twitterbw.png" onmouseover="this.src='./static/images/common/social logos/Twitter.png'" onmouseout="this.src='./static/images/common/social logos/Twitterbw.png'" alt="Twitter"></a>
+                <a href="https://www.whatsapp.com"><img src="./static/images/common/social logos/WhatsAppbw.png" onmouseover="this.src='./static/images/common/social logos/WhatsApp.png'" onmouseout="this.src='./static/images/common/social logos/WhatsAppbw.png'" alt="WhatsApp"></a>
+                <a href="https://www.google.com"><img src="./static/images/common/social logos/Googlebw.png" onmouseover="this.src='./static/images/common/social logos/Google.png'" onmouseout="this.src='./static/images/common/social logos/Googlebw.png'" alt="Google"></a>
+                <a href="https://www.youtube.com"><img src="./static/images/common/social logos/Youtubebw.png" onmouseover="this.src='./static/images/common/social logos/Youtube.png'" onmouseout="this.src='./static/images/common/social logos/Youtubebw.png'" alt="Youtube"></a>
+        
+        </div>
+
+        <!-- Register/Login Button -->
+        <a href="./sign.html">
+            <button class="regbtn">
+                <span>Login/register</span>
+            </button>
+        </a>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="">Categories</a></li>
+            <li><a href="">Announcement</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Login Form -->
+    <div class="loginbox">
+        <img src="./static/images/login/log logo.jpeg" class="avatar" alt="Avatar">
+        <form method="post" action="./template/pages/login.php">
+            <h1>Login Here</h1>
+            <p>Username</p>
+            <input type="text" name="Username" placeholder="Enter Username" required>
+            <p>Password</p>
+            <input type="password" name="Password" placeholder="Enter Password" required>
+            <input type="submit" name="LOGIN" value="Login">
+            <a href="#">Forget password</a><br>
+            <p>Already a member? <a href="./sign.html">Sign in</a></p>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <h3>Learning HUB</h3>
+            <p>"When something is important enough, you do it even if the odds are not in your favor."</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2020 codeOpacity. designed by <span>RV</span></p>
+        </div>
+    </footer>
+</body>
+</html>
