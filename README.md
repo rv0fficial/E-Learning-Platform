@@ -7,9 +7,9 @@ This online learning platform is meticulously crafted using a technology stack c
 
 ## Screenshots
 
-![App Screenshot](https://drive.google.com/uc?id=1381MUpjSJrkuw6UuNhigHBgwQpwIyRVn)
+![App Screenshot](https://drive.google.com/uc?id=1d8JQZ84orQuU_P2zHLtTRrOj-shu2RcJ)
 
-![App Screenshot](https://drive.google.com/uc?id=1HqpJrFcwPYwHTmWoyWDTN-tf_02GjyB3)
+![App Screenshot](https://drive.google.com/uc?id=1EeU-I1q0fP_PDGAlw-mKGQUOuICQnU_Q)
 
 ![App Screenshot](https://drive.google.com/uc?id=1sybw6Hjo1XZx0dhNxK-sZjt3YhGD2E5S)
 
@@ -18,8 +18,3 @@ This online learning platform is meticulously crafted using a technology stack c
 ![App Screenshot](https://drive.google.com/uc?id=1t5AOSUdvauKRkOr3B4eIYCfckIaa0EmT)
 
 ![App Screenshot](https://drive.google.com/uc?id=1GhBvDMKMwMRki9JGhsHXtHA9sLI-fhWh)
-
-
-
-
-
