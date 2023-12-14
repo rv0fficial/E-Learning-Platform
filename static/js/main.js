@@ -5,15 +5,15 @@ function loadData(name){
         document.getElementById("pop3").src="./static/images/home/categories/R_4.jpg";
         document.getElementById("pop4").src="./static/images/home/categories/R_1.jfif";
         
-        document.getElementById("pheader1").innerHTML="web designing";
-        document.getElementById("pheader2").innerHTML="graphic designing";
-        document.getElementById("pheader3").innerHTML="industrial designing";
-        document.getElementById("pheader4").innerHTML="software development";
+        document.getElementById("pheader1").innerHTML="Web designing";
+        document.getElementById("pheader2").innerHTML="Graphic designing";
+        document.getElementById("pheader3").innerHTML="Industrial designing";
+        document.getElementById("pheader4").innerHTML="Software development";
 
-        document.getElementById("info1").innerHTML="Lorem ipsum";
-        document.getElementById("info2").innerHTML="Lorem ipsum";
-        document.getElementById("info3").innerHTML="Lorem ipsum";
-        document.getElementById("info4").innerHTML="Lorem ipsum";
+        document.getElementById("info1").innerHTML="Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience.";
+        document.getElementById("info2").innerHTML="Graphic design is an interdisciplinary branch of design and of the fine arts.";
+        document.getElementById("info3").innerHTML="Industrial design is a process of design applied to physical products that are to be manufactured by mass production.";
+        document.getElementById("info4").innerHTML="Software development is the process used to design, program, document, test, and bug fix in order to create and maintain applications, frameworks, or other software components.";
 
     }
     else if(name=="nxt"){
@@ -22,15 +22,15 @@ function loadData(name){
         document.getElementById("pop3").src="./static/images/home/categories/R_7.jpg";
         document.getElementById("pop4").src="./static/images/home/categories/R_8.jpg";
 
-        document.getElementById("pheader1").innerHTML="interior designing";
-        document.getElementById("pheader2").innerHTML="fashion designing ";
-        document.getElementById("pheader3").innerHTML="computer engineering";
-        document.getElementById("pheader4").innerHTML="machine learning";
+        document.getElementById("pheader1").innerHTML="Interior designing";
+        document.getElementById("pheader2").innerHTML="Fashion designing";
+        document.getElementById("pheader3").innerHTML="Computer engineering";
+        document.getElementById("pheader4").innerHTML="Machine learning";
         
-        document.getElementById("info1").innerHTML="Lorem ipsum";
-        document.getElementById("info2").innerHTML="Lorem ipsum";
-        document.getElementById("info3").innerHTML="Lorem ipsum";
-        document.getElementById("info4").innerHTML="Lorem ipsum";
+        document.getElementById("info1").innerHTML="Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space.";
+        document.getElementById("info2").innerHTML="Fashion design is the art of applying design, aesthetics, clothing construction and natural beauty to clothing and its accessories.";
+        document.getElementById("info3").innerHTML="Computer engineering combines the basic theory of computer science with elements of electrical engineering.";
+        document.getElementById("info4").innerHTML="Machine learning is a form of artificial intelligence (AI) that teaches computers to think in a similar way to how humans do: Learning and improving upon past experiences.";
       
     }
 }
